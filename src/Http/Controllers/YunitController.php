@@ -12,7 +12,7 @@ class YunitController extends Controller
     public function index()
     {
         $r = view();
-        return view('sjunit::index');// ?? view(??)
+        return view('yunit::index');// ?? view(??)
     }
 
     // 如下内容，想要丰富就自个完善吧

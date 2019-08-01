@@ -13,13 +13,13 @@ composer require yfl/yunit-laravel
 ```
 
 # 配置方式
-5.5手动配置laravel对于``Yfl\YunitLaravel\Providers\SJunitServiceProvider::class``服务放到config/app.php中
+5.5手动配置laravel对于``Yfl\YunitLaravel\Providers\YunitServiceProvider::class``服务放到config/app.php中
 
 解释路由
 ```php
 <?php
 Route::get('/', 'YunitController@index');
-Route::post('/', 'YunitController@store')->name('junit.store');
+Route::post('/', 'YunitController@store')->name('yunit.store');
 ?>
 ```
 
