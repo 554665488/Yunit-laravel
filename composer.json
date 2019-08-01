@@ -13,5 +13,12 @@
         "psr-4": {
             "Yfl\\YunitLaravel\\": "src"
         }
+    },
+	"extra":{
+        "laravel":{
+            "providers":[
+                "Yfl\\YunitLaravel\\Providers\\SJunitServiceProvider"
+            ]
+        }
     }
 }

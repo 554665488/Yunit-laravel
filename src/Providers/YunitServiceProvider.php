@@ -20,7 +20,7 @@ class YunitServiceProvider extends ServiceProvider
         $this->registerRoutes();
         // 指定的组件的名称，自定义的资源目录地址
         $this->loadViewsFrom(
-            __DIR__.'/../../resources/views', 'sjunit'
+            __DIR__.'/../../resources/views', 'yunit'
         );
     }
 
@@ -45,7 +45,7 @@ class YunitServiceProvider extends ServiceProvider
             // 是定义路由的命名空间
             'namespace' => 'Yfl\YunitLaravel\Http\Controllers',
             // 这是前缀
-            'prefix' => 'sjunit',
+            'prefix' => 'yunit',
             // 这是中间件
             'middleware' => 'web',
         ];
