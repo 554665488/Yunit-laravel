@@ -17,7 +17,7 @@
 	"extra":{
         "laravel":{
             "providers":[
-                "Yfl\\YunitLaravel\\Providers\\SJunitServiceProvider"
+                "Yfl\\YunitLaravel\\Providers\\YunitServiceProvider"
             ]
         }
     }
