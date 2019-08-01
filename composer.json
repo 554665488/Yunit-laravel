@@ -1,0 +1,17 @@
+{
+    "name": "yfl\/yunit-laravel",
+    "description": "A Simplified version of the laravel framework unit test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yinfanliang",
+            "email": "554665488@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Yfl\\YunitLaravel\\": "src"
+        }
+    }
+}
